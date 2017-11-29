@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="38px" viewBox="0 0 12 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Фреймворк" transform="translate(-493.000000, -1144.000000)">
+            <g id="Symbols" transform="translate(71.000000, 1138.000000)">
+                <g id="Navigation-Circle-Horizontal" transform="translate(422.000000, 7.000000)">
+                    <g id="Group">
+                        <circle id="Oval-187" stroke="#FF4D4D" cx="6" cy="18" r="5"></circle>
+                        <circle id="Oval-187" stroke="#FF4D4D" fill="#FF4D4D" cx="5.85714286" cy="31" r="5"></circle>
+                        <circle id="Oval-187" stroke="#E0E0E0" cx="6" cy="5" r="5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

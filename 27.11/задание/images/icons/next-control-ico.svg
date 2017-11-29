@@ -1,0 +1,26 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Arrow right</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7928 -3372)">
+<g id="Arrow right">
+<g id="Chevron Circle Right">
+<g id="Oval 41">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(7928 3372)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(7928 3372)" fill="#E0E0E0"/>
+</g>
+</g>
+<g id="Path 181 Copy 2">
+<use xlink:href="#path2_stroke" transform="translate(7942.32 3382.11)" fill="#94989E"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 16 32C 24.8366 32 32 24.8366 32 16C 32 7.16344 24.8366 0 16 0C 7.16344 0 0 7.16344 0 16C 0 24.8366 7.16344 32 16 32Z"/>
+<path id="path1_stroke_2x" d="M 16 33C 25.3888 33 33 25.3888 33 16L 31 16C 31 24.2843 24.2843 31 16 31L 16 33ZM 33 16C 33 6.61116 25.3888 -1 16 -1L 16 1C 24.2843 1 31 7.71573 31 16L 33 16ZM 16 -1C 6.61116 -1 -1 6.61116 -1 16L 1 16C 1 7.71573 7.71573 1 16 1L 16 -1ZM -1 16C -1 25.3888 6.61116 33 16 33L 16 31C 7.71573 31 1 24.2843 1 16L -1 16Z"/>
+<path id="path2_stroke" d="M 6.09645 6.26685L 6.79346 6.98391L 7.5108 6.28662L 6.81323 5.56955L 6.09645 6.26685ZM -0.716785 0.697295L 5.37967 6.96414L 6.81323 5.56955L 0.716785 -0.697295L -0.716785 0.697295ZM 5.39944 5.54979L -0.697015 11.4758L 0.697015 12.91L 6.79346 6.98391L 5.39944 5.54979Z"/>
+</defs>
+</svg>

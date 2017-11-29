@@ -1,0 +1,271 @@
+/* Стили стандартизированных элементов сайта */
+
+/* Стили заголовков */
+h1 {
+  color: #2d2d2d;
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: 'Elliot-Pro-Heavy', sans-serif;
+  line-height: 4.8rem;
+  margin-top: -10px;
+}
+
+h2 {
+  color: #2d2d2d;
+  font-weight: 900;
+  font-size: 2.4rem;
+  font-family: 'Elliot-Pro-Heavy', sans-serif;
+  line-height: 4.8rem;
+  margin-top: -12px;
+}
+
+h3 {
+  color: #2d2d2d;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Helvetica-Bold', sans-serif;
+  line-height: 2.8rem;
+  margin-top: -4px;
+}
+
+h4 {
+  color: #2d2d2d;
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-family: 'Helvetica-Bold', sans-serif;
+  line-height: 2.6rem;
+  margin-top: -4px;
+}
+
+h5 {
+  color: #2d2d2d;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: 'Helvetica-Bold', sans-serif;
+  line-height: 2.8rem;
+  margin-top: -7px;
+}
+
+h6 {
+  color: #2d2d2d;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: 'Helvetica-Reg', sans-serif;
+  line-height: 2.3rem;
+  margin-top: -5px;
+}
+
+/* Стили красной кнопки */
+.red-btn {
+  background-color: #ff4d4d !important;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0 3rem !important;
+  font-weight: normal;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+}
+
+.red-btn:hover {
+  background-color: #f93838 !important;
+  text-decoration: none;
+  color: white;
+}
+
+.red-btn:active {
+  background-color: #ff4d4d !important;
+  text-decoration: none;
+  color: white;
+}
+
+.red-btn:disabled {
+  background-color: #ff4d4d !important;
+  opacity: 0.35;
+  color: white;
+}
+
+.red-btn:visited,
+.red-btn:focus {
+  text-decoration: none;
+  color: white;
+}
+
+/* Стили белой кнопки */
+.white-btn {
+  background-color: white !important;
+  color: #ff4d4d;
+  border-radius: 4px;
+  padding: 0 3rem;
+  font-weight: normal;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  border: 1px solid #ff4d4d !important;
+}
+
+.white-btn:hover {
+  border: 1px solid #f93838 !important;
+  text-decoration: none;
+  color: #ff4d4d;
+}
+
+.white-btn:active {
+  border: 1px solid #ff4d4d !important;
+  text-decoration: none;
+  color: #ff4d4d !important;
+}
+
+.white-btn:disabled {
+  border: 1px solid #ff4d4d !important;
+  opacity: 0.35;
+  color: #ff4d4d !important;
+}
+
+.white-btn:visited,
+.white-btn:focus {
+  text-decoration: none;
+  color: #ff4d4d;
+}
+
+/* Стили большой кнопки */
+.btn-lg {
+  line-height: 4.6rem;
+  font-size: 1.7rem;
+}
+
+/* Стили маленькой кнопки */
+.btn-sm {
+  line-height: 3.6rem;
+  font-size: 1.5rem;
+}
+
+/* Переключатели в слайдере карточек товара */
+.prev-control,
+.next-control {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: .6;
+}
+
+.prev-control:hover,
+.next-control:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.prev-control {
+  background-image: url(../images/icons/prev-control-ico.svg);
+}
+
+.next-control {
+  background-image: url(../images/icons/next-control-ico.svg);
+}
+
+/* Стили синей неподчеркнутой ссылки */
+.link-default {
+  color: #1e64ad;
+  text-decoration: none;
+}
+
+.link-default:hover {
+  color: #33adf7;
+}
+
+.link-default: active {
+  color: #1e64ad;
+  /*text-decoration: none;*/
+}
+
+/* Стили синей подчеркнутой ссылки */
+.link-default-undl {
+  color: #1e64ad;
+  text-decoration: underline;
+}
+
+.link-default-undl:hover {
+  color: #33adf7;
+  text-decoration: none;
+}
+
+.link-default-undl: active {
+  color: #1e64ad;
+  text-decoration: none;
+}
+
+/* Стили желтой подчеркнутой ссылки */
+.yellow-link {
+  color: #fed20d;
+}
+
+.yellow-link:hover {
+  color: #f7c333;
+  text-decoration: none;
+}
+
+.yellow-link: active {
+  color: #ffd806;
+  text-decoration: none;
+}
+
+/* Стили бело-желтой ссылки */
+.white-yellow-link {
+  color: white;
+  text-decoration: none;
+}
+
+.white-yellow-link:hover {
+  color: #ffd806;
+  text-decoration: none;
+}
+
+.white-yellow-link: active {
+  color: #f7c333;
+  text-decoration: none;
+}
+
+/* Стили зелёной ссылки */
+.green-link {
+  color: #4BC94C;
+  text-decoration: underline;
+}
+
+.green-link:hover {
+  color: #549B55;
+  text-decoration: none;
+}
+
+.green-link: active {
+  color: #4BC94C;
+  text-decoration: none;
+}
+
+/* Стили серой подчеркнутой ссылки */
+.gray-link {
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+
+.gray-link:hover {
+  color: #d2d2d2;
+  text-decoration: none;
+}
+
+.gray-link: active {
+  color: #b3b3b3;
+  text-decoration: none;
+}
